@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Close Menu</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Close-Menu" transform="translate(1.307612, 1.307612)" stroke="#FFFFFF" stroke-width="2">
+            <line x1="-3.30761184" y1="9.19238816" x2="21.6923882" y2="9.19238816" id="Line" transform="translate(9.192388, 9.192388) rotate(45.000000) translate(-9.192388, -9.192388) "></line>
+            <line x1="-3.30761184" y1="9.19238816" x2="21.6923882" y2="9.19238816" id="Line" transform="translate(9.192388, 9.192388) rotate(135.000000) translate(-9.192388, -9.192388) "></line>
+        </g>
+    </g>
+</svg>

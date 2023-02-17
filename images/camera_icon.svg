@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Camera Icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camera-Icon" transform="translate(0.000000, -0.000000)" fill="#FFFFFF">
+            <path d="M14.7945205,-0.705479452 L22.75275,16.5320072 C22.9441704,16.9466228 22.7632349,17.4379121 22.3486193,17.6293325 C22.2399591,17.6794989 22.1217037,17.7054795 22.002022,17.7054795 L7.58701909,17.7054795 C7.13034863,17.7054795 6.76014409,17.3352749 6.76014409,16.8786045 C6.76014409,16.7589227 6.78612463,16.6406674 6.83629105,16.5320072 L14.7945205,-0.705479452 L14.7945205,-0.705479452 Z" id="Triangle" transform="translate(14.794521, 8.500000) rotate(270.000000) translate(-14.794521, -8.500000) "></path>
+            <rect id="Rectangle" x="0" y="1.13686838e-13" width="15.9452055" height="17" rx="1.323"></rect>
+        </g>
+    </g>
+</svg>
