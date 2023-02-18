@@ -511,12 +511,21 @@ body {
   .navbar .container .menu {
     display: none;
   }
+  .section_1 {
+    margin-top: 1vh;
+  }
   .section_1 .container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 2vh;
+  }
+  .section_1 .container .left-col p {
+    text-align: center;
+  }
+  .section_1 .container .left-col h1 {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

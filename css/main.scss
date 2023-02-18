@@ -425,7 +425,6 @@ body {
         .container {
             flex-direction: column;
             
-
             .menu {
                 display: none;
             }
@@ -433,10 +432,22 @@ body {
     }
 
 
+
     .section_1 {
+        margin-top: 1vh;
         .container {
             flex-direction: column;
             row-gap: 2vh;
+
+            .left-col {
+                p {
+                    text-align: center;
+                }
+
+                h1 {
+                    text-align: center;
+                }
+            }
         }
     }
 
