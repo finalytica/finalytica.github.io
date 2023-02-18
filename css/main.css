@@ -117,7 +117,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-width: 100%;
 }
 
 .section_1 .container .left-col .download_watch_section .download_img {
@@ -520,6 +519,12 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     row-gap: 2vh;
+  }
+  .section_1 .container .left-col .download_watch_section {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-column-gap: 0vw;
+            column-gap: 0vw;
   }
   .section_1 .container .left-col p {
     text-align: center;

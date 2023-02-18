@@ -108,11 +108,7 @@ body {
             .download_watch_section {
                 display: flex;
                 justify-content: space-between;
-                min-width: 100%;
-                // row-gap: 10vw;
-                // width: 30vw;
-
-                // background-color: red;
+                // column-gap: 5vw;
 
                 .download_img {
                     max-width: 50%;
@@ -432,7 +428,6 @@ body {
     }
 
 
-
     .section_1 {
         margin-top: 1vh;
         .container {
@@ -440,6 +435,12 @@ body {
             row-gap: 2vh;
 
             .left-col {
+                .download_watch_section {
+                    justify-content: space-around;
+                    column-gap: 0vw;
+                }
+
+
                 p {
                     text-align: center;
                 }
