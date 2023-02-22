@@ -603,7 +603,7 @@ body {
   border: none;
   padding: 2%;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.99rem;
 }
 
 .section_3 .contact_field .input_field {
@@ -629,7 +629,7 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   color: #BFD2FF;
-  font-size: 0.8rem;
+  font-size: 0.99rem;
   line-height: 1.4rem;
   vertical-align: middle;
 }

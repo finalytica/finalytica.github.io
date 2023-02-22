@@ -485,7 +485,7 @@ $input-text-active: #BFD2FF;
                     border: none;
                     padding: 2%;
                     color: white;
-                    font-size: 0.8rem;                    
+                    font-size: 0.99rem;                    
                 }
 
                 
@@ -508,7 +508,7 @@ $input-text-active: #BFD2FF;
         .input_field input {
             flex-grow: 1;
             color: $input-text-active;
-            font-size: 0.8rem;
+            font-size: 0.99rem;
             line-height: 1.4rem;
             vertical-align: middle;
             &::-webkit-input-placeholder {
