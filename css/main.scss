@@ -163,7 +163,6 @@ body {
                 .watch_video_img {
                     max-width: 70%;
                 }
-                
             }
 
             h1 {
@@ -219,7 +218,6 @@ body {
             flex-direction: row;
             justify-content: space-evenly;
             // background-color: blue;
-            
 
             .left_section {
                 width: 30vw;
@@ -250,7 +248,6 @@ body {
                         }
                     }
                 }
-                
             }
             
 
@@ -258,8 +255,6 @@ body {
                 width: 30vw;
                 display: flex;
                 flex-direction: column;
-                // align-items: flex-end;
-                // align-content: space-around;
                 row-gap: 10vh;
 
                 .feature {
@@ -283,7 +278,6 @@ body {
                         }
                     }
                 }
-
             }
 
             .feature_icon {
@@ -301,7 +295,7 @@ body {
                 img {
                     width: 4vw;
                 }
-    }
+            }
 
             img {
                 width: 30%;
@@ -360,7 +354,6 @@ body {
                         color: white;
                     }
                     
-    
                     ul {
                         margin-top: 5vh;
                         padding: 3vh;
@@ -421,7 +414,6 @@ $input-background: rgba(57, 63, 84, 0.8);
 $input-text-inactive: #7881A1;
 $input-text-active: #BFD2FF;
 
-
 .section_3 {
     display: flex;
     flex-direction: column;
@@ -440,15 +432,20 @@ $input-text-active: #BFD2FF;
         width: 80vw;
         row-gap: 3vh;
 
-        .contact_details {
+        .contact_details { //div containign 2 input-field
             display: flex;
             flex-direction: row;
             justify-content: center;
             width: 80vw;
             column-gap: 2vw;
+
+            .input_field {
+                width: 46%;
+                padding: 2%;
+            }
         }
 
-        .subject_field {
+        .subject_field { //div containing 1 input-field
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -456,17 +453,15 @@ $input-text-active: #BFD2FF;
 
             .input_field {
                 height: 30vh;
+                width: 96%;
+                padding: 2%;
             }
         }
 
         .input_field {
-            position: relative;
             display: flex;
             flex-direction: row;
-            width: 100%;
-            max-width: 100%;
             border-radius: 2px;
-            padding: 1.4rem 2rem 1.6rem;
             background: $input-background;
     
             input {
@@ -491,20 +486,20 @@ $input-text-active: #BFD2FF;
     
     .icons {
         margin-top: 10vh;
-        width: 80%;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
+        column-gap: 10vw;
 
         a {
+            padding: 0px;
+            margin: 0px;
+
             img {
-                scale: 30%;
-                padding: 0px;
+                width: 10vw;
+                height: auto;
             }
-        } 
+        }
     }
-    
 }
 
 
@@ -575,6 +570,22 @@ $input-text-active: #BFD2FF;
         .section_2_2 {
             .cards_holder {
                 flex-direction: column;
+            }
+        }
+    }
+
+
+    .section_3 {
+        .contact_field {
+            .contact_details {
+                flex-direction: column;
+                row-gap: 2vh;
+                width: 100%;
+
+                .input_field {
+                    width: 96%;
+                    padding: 2%;
+                }
             }
         }
     }

@@ -547,6 +547,11 @@ body {
           column-gap: 2vw;
 }
 
+.section_3 .contact_field .contact_details .input_field {
+  width: 46%;
+  padding: 2%;
+}
+
 .section_3 .contact_field .subject_field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -563,10 +568,11 @@ body {
 
 .section_3 .contact_field .subject_field .input_field {
   height: 30vh;
+  width: 96%;
+  padding: 2%;
 }
 
 .section_3 .contact_field .input_field {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -574,10 +580,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 100%;
-  max-width: 100%;
   border-radius: 2px;
-  padding: 1.4rem 2rem 1.6rem;
   background: rgba(57, 63, 84, 0.8);
 }
 
@@ -603,25 +606,23 @@ body {
 
 .section_3 .icons {
   margin-top: 10vh;
-  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 10vw;
+          column-gap: 10vw;
+}
+
+.section_3 .icons a {
+  padding: 0px;
+  margin: 0px;
 }
 
 .section_3 .icons a img {
-  scale: 30%;
-  padding: 0px;
+  width: 10vw;
+  height: auto;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -676,6 +677,18 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .section_3 .contact_field .contact_details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 2vh;
+    width: 100%;
+  }
+  .section_3 .contact_field .contact_details .input_field {
+    width: 96%;
+    padding: 2%;
   }
 }
 /*# sourceMappingURL=main.css.map */
