@@ -513,7 +513,8 @@ body {
 
 .section_3 h1 {
   color: white;
-  margin-top: 10vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
 }
 
 .section_3 .contact_field {
@@ -552,6 +553,10 @@ body {
   padding: 2%;
 }
 
+.section_3 .contact_field .contact_details .input_field input {
+  color: white;
+}
+
 .section_3 .contact_field .subject_field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,12 +569,41 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 80vw;
+  height: auto;
 }
 
 .section_3 .contact_field .subject_field .input_field {
   height: 30vh;
   width: 96%;
   padding: 2%;
+}
+
+.section_3 .contact_field .subject_field .input_field textarea::-webkit-input-placeholder {
+  color: #7881A1;
+}
+
+.section_3 .contact_field .subject_field .input_field textarea:-ms-input-placeholder {
+  color: #7881A1;
+}
+
+.section_3 .contact_field .subject_field .input_field textarea::-ms-input-placeholder {
+  color: #7881A1;
+}
+
+.section_3 .contact_field .subject_field .input_field textarea::placeholder {
+  color: #7881A1;
+}
+
+.section_3 .contact_field .subject_field .input_field textarea {
+  resize: vertical;
+  overflow: auto;
+  min-width: 96%;
+  max-width: 96%;
+  background: rgba(57, 63, 84, 0.8);
+  border: none;
+  padding: 2%;
+  color: white;
+  font-size: 0.8rem;
 }
 
 .section_3 .contact_field .input_field {
@@ -605,7 +639,7 @@ body {
 }
 
 .section_3 .icons {
-  margin-top: 10vh;
+  margin-top: 2vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -613,6 +647,7 @@ body {
       justify-content: space-around;
   -webkit-column-gap: 10vw;
           column-gap: 10vw;
+  padding: 5%;
 }
 
 .section_3 .icons a {
@@ -621,7 +656,7 @@ body {
 }
 
 .section_3 .icons a img {
-  width: 10vw;
+  width: 5vw;
   height: auto;
 }
 

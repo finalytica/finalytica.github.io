@@ -1,8 +1,14 @@
-// Makes scrolling smooth, when pressing links, etc
+// --- VARIABLES ---
+$topSectionMargin: 15vh;
+
+//--- GENERAL COMPONENTS ---
+
+//1. Makes scrolling smooth, when pressing links, etc
 html {
     scroll-behavior: smooth;
 }
 
+//2. Body edit attributes
 body {
     background: #1C1C1E;
     margin: 0;
@@ -11,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-
+// --- Floating Menu ---
 .floating_menu_button {
     display: flex;
     flex-direction: row;
@@ -40,7 +46,11 @@ body {
         // height: 30px;
     }
 }
+//-----------------------------------------
 
+
+
+//--- SECTIONS ---
 
 //--- Part 1: Navigation bar ---
 
@@ -206,7 +216,7 @@ body {
         // align-items: center;
 
         h1 {
-            margin-top: 15vh;
+            margin-top: $topSectionMargin;
             text-align: center;
             span {
                 color: #6F58C9;
@@ -310,7 +320,7 @@ body {
         align-items: center;
 
         h1 {
-            margin-top: 15vh;
+            margin-top: $topSectionMargin;
         }
 
         .cards_holder {
@@ -393,7 +403,7 @@ body {
     }
 
     // --- Section 2.3
-    .section_2_3{
+    .section_2_3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -422,7 +432,8 @@ $input-text-active: #BFD2FF;
 
     h1 {
         color: white;
-        margin-top: 10vh;
+        margin-top: $topSectionMargin;
+        margin-bottom: 5vh;
     }
 
     .contact_field {
@@ -442,6 +453,10 @@ $input-text-active: #BFD2FF;
             .input_field {
                 width: 46%;
                 padding: 2%;
+                
+                input {
+                    color: white;
+                }
             }
         }
 
@@ -450,11 +465,30 @@ $input-text-active: #BFD2FF;
             flex-direction: row;
             justify-content: center;
             width: 80vw;
+            height: auto;
 
             .input_field {
                 height: 30vh;
                 width: 96%;
                 padding: 2%;
+
+                textarea::placeholder {
+                    color: $input-text-inactive;
+                }
+
+                textarea {
+                    resize: vertical;
+                    overflow: auto;
+                    min-width: 96%;
+                    max-width: 96%;
+                    background: $input-background;
+                    border: none;
+                    padding: 2%;
+                    color: white;
+                    font-size: 0.8rem;                    
+                }
+
+                
             }
         }
 
@@ -482,20 +516,20 @@ $input-text-active: #BFD2FF;
             }
         }
     }
-
     
     .icons {
-        margin-top: 10vh;
+        margin-top: 2vh;
         display: flex;
         justify-content: space-around;
         column-gap: 10vw;
+        padding: 5%;
 
         a {
             padding: 0px;
             margin: 0px;
 
             img {
-                width: 10vw;
+                width: 5vw;
                 height: auto;
             }
         }
@@ -520,7 +554,6 @@ $input-text-active: #BFD2FF;
             }
         }
     }
-
 
     .section_1 {
         margin-top: 1vh;
@@ -589,7 +622,4 @@ $input-text-active: #BFD2FF;
             }
         }
     }
-
-    
-    
 }
