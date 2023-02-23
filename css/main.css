@@ -424,18 +424,19 @@ body {
 }
 
 .section_2 .section_2_2 .cards_holder .card_view .img_container h1 {
-  margin: 2vh;
+  margin: 3vh;
+  margin-top: 5vh;
   padding: 0px;
   color: white;
 }
 
 .section_2 .section_2_2 .cards_holder .card_view .text_content h1 {
-  margin: 2vh;
+  margin: 1vh;
   color: white;
 }
 
 .section_2 .section_2_2 .cards_holder .card_view .text_content ul {
-  margin-top: 5vh;
+  margin-top: 3vh;
   padding: 3vh;
   text-align: left;
 }
@@ -458,7 +459,7 @@ body {
   border: #6F58C9;
   border-width: 3px;
   border-style: solid;
-  margin-top: 8vh;
+  margin-top: 3vh;
   margin-bottom: 4vh;
 }
 
@@ -508,7 +509,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 80vh;
+  margin-bottom: 10vh;
 }
 
 .section_3 h1 {
@@ -638,26 +639,53 @@ body {
   color: #7881A1;
 }
 
-.section_3 .icons {
-  margin-top: 2vh;
+.section_4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-column-gap: 10vw;
-          column-gap: 10vw;
-  padding: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
 }
 
-.section_3 .icons a {
+.section_4 .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-column-gap: 8vw;
+          column-gap: 8vw;
+  padding: 3%;
+}
+
+.section_4 .icons a {
   padding: 0px;
   margin: 0px;
 }
 
-.section_3 .icons a img {
-  width: 5vw;
+.section_4 .icons a img {
+  width: 30px;
   height: auto;
+}
+
+.section_4 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #6F58C9;
+  padding: 2%;
+  text-align: center;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 1000px) {

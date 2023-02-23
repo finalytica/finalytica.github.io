@@ -351,7 +351,8 @@ body {
                     }
 
                     h1 {
-                        margin: 2vh;
+                        margin: 3vh;
+                        margin-top: 5vh;
                         padding: 0px;
                         color: white;
                     }
@@ -360,12 +361,12 @@ body {
                 .text_content {
 
                     h1 {
-                        margin: 2vh;
+                        margin: 1vh;
                         color: white;
                     }
                     
                     ul {
-                        margin-top: 5vh;
+                        margin-top: 3vh;
                         padding: 3vh;
                         text-align: left;
                         li {
@@ -382,7 +383,7 @@ body {
                     border: #6F58C9;
                     border-width: 3px;
                     border-style: solid;
-                    margin-top: 8vh;
+                    margin-top: 3vh;
                     margin-bottom: 4vh;
 
                     h3 {
@@ -428,7 +429,7 @@ $input-text-active: #BFD2FF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    margin-bottom: 10vh;
 
     h1 {
         color: white;
@@ -487,8 +488,6 @@ $input-text-active: #BFD2FF;
                     color: white;
                     font-size: 0.99rem;                    
                 }
-
-                
             }
         }
 
@@ -516,23 +515,39 @@ $input-text-active: #BFD2FF;
             }
         }
     }
-    
+}
+
+.section_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
     .icons {
-        margin-top: 2vh;
         display: flex;
+        align-items: center;
         justify-content: space-around;
-        column-gap: 10vw;
-        padding: 5%;
+        column-gap: 8vw;
+        padding: 3%;
 
         a {
             padding: 0px;
             margin: 0px;
 
             img {
-                width: 5vw;
+                width: 30px;
                 height: auto;
             }
         }
+    }
+
+    p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #6F58C9;
+        padding: 2%;
+        text-align: center;
+        font-size: 12px;
     }
 }
 
@@ -623,3 +638,4 @@ $input-text-active: #BFD2FF;
         }
     }
 }
+
