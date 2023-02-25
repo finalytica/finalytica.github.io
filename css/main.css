@@ -24,6 +24,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  visibility: hidden;
   background-color: #6F58C9;
   width: 60px;
   height: 60px;
