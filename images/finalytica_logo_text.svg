@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="306px" height="75px" viewBox="0 0 306 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="406px" height="139px" viewBox="0 0 406 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>finalytica_logo_text</title>
     <defs>
         <polygon id="path-1" points="5.53683681e-13 0 76 0 75.935865 73.6538462 5.53683681e-13 75"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="finalytica_logo_text">
+            <rect id="Rectangle" fill="#1C1C1C" x="0" y="0" width="406" height="139" rx="8"></rect>
             <text id="FINALYTICA℠" font-family="Helvetica" font-size="32" font-weight="normal" fill="#FFFFFF">
-                <tspan x="96" y="49.3005319">FINALYTICA℠</tspan>
+                <tspan x="146" y="81.3005319">FINALYTICA℠</tspan>
             </text>
-            <g id="Content">
+            <g id="Content" transform="translate(50.000000, 32.000000)">
                 <g id="Path-11">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
