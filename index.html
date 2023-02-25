@@ -16,10 +16,47 @@
     <!-- Interactivity guide: https://lottiefiles.com/interactivity?url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_kdx6cani.json -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@1/dist/lottie-player.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js" integrity="sha512-fTTVSuY9tLP+l/6c6vWz7uAQqd1rq3Q/GyKBN2jOZvJSLC5RjggSdboIFL1ox09/Ezx/AKwcv/xnDeYN9+iDDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <div class="floating_menu_button" onclick="openNav()">
+
+        <lottie-player 
+            src="json_animations/menu-to-close-3.json">
+        </lottie-player>
+
+        <script>
+            const toggleMenu = document.querySelector(".floating_menu_button");
+            const player = document.querySelector("lottie-player");
+
+            var c = 0;
+            toggleMenu.addEventListener("click", function () {
+                switch(c) {
+                    case 0:
+                        player.getLottie().playSegments([30, 60], true);
+                        c = 1;
+                        break;
+                    case 1:
+                        player.getLottie().playSegments([85, 112], true);
+                        c = 0;
+                        break;
+                    default:
+                        break;
+                }
+            });
+        </script>
+        <!-- <img src="images/burger_menu.svg"> -->
+    </div>
 
 
-    <div class="floating_menu_button">
-        <img src="images/burger_menu.svg">
+    <div id="mobile_menu">
+        <ul class="mobile_menu_items">
+            <!-- <li><a href="">Home</a></li> -->
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#data">Data</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a>About us</a></li>
+        </ul>
     </div>
 
     

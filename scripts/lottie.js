@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
     LottieInteractivity.create({
         player:'#mail-lottie',
@@ -21,6 +23,16 @@ document.addEventListener('DOMContentLoaded', function () {
             // }
         ]
     });
-
-
 })
+
+
+function openNav() {
+
+    var x = document.getElementById("mobile_menu");
+
+    if (x.style.width === "100%") {
+        x.style.width = "0";
+    } else {
+        x.style.width = "100%";
+    }
+}
