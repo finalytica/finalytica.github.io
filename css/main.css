@@ -804,5 +804,10 @@ body {
     width: 96%;
     padding: 2%;
   }
+  .section_3 #mail-lottie {
+    max-width: 40%;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
