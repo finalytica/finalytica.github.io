@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="75px" viewBox="0 0 306 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>finalytica_logo_text</title>
+    <defs>
+        <polygon id="path-1" points="5.53683681e-13 0 76 0 75.935865 73.6538462 5.53683681e-13 75"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="finalytica_logo_text">
+            <text id="FINALYTICA℠" font-family="Helvetica" font-size="32" font-weight="normal" fill="#FFFFFF">
+                <tspan x="96" y="49.3005319">FINALYTICA℠</tspan>
+            </text>
+            <g id="Content">
+                <g id="Path-11">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M4.48405063,0.961538462 L71.8055861,0.961538462 C73.219435,0.961538462 74.3655861,2.1076895 74.3655861,3.52153846 C74.3655861,4.2007172 74.0956946,4.8520596 73.6153212,5.33218992 L61.7464164,17.1950882 C59.3461373,19.5941526 56.0913891,20.9418309 52.6977407,20.9418309 L24.6001855,20.9418309 C23.1863366,20.9418309 22.0401855,22.0879819 22.0401855,23.5018309 L22.0401855,42.6346387 C22.0401855,44.0484877 23.1863366,45.1946387 24.6001855,45.1946387 L27.8864372,45.1946387 C29.2233695,45.1946387 30.3071672,46.2784364 30.3071672,47.6153687 C30.3071672,48.2575985 30.0519585,48.8735064 29.5977185,49.3275165 L6.29378577,72.6196558 C5.29379058,73.6191449 3.67288829,73.6187346 2.67339917,72.6187394 C2.19358629,72.1386836 1.92405063,71.487734 1.92405063,70.8090043 L1.92405063,3.52153846 C1.92405063,2.1076895 3.07020167,0.961538462 4.48405063,0.961538462 Z" stroke="#6F58C9" stroke-width="1.28" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Bar-Chart" transform="translate(21.485232, 18.910256)" stroke="#FFFFFF" stroke-width="1.28">
+                    <rect id="Rectangle" x="24.0492827" y="23.3964103" width="6.41620253" height="32.0533333" rx="3.20810127"></rect>
+                    <rect id="Rectangle" x="35.9142616" y="11.8579487" width="6.41620253" height="43.5917949" rx="3.20810127"></rect>
+                    <rect id="Rectangle" x="47.4585654" y="0.64" width="6.41620253" height="54.8097436" rx="3.20810127"></rect>
+                    <rect id="Rectangle" x="12.5049789" y="33.9733333" width="6.41620253" height="21.4764103" rx="3.20810127"></rect>
+                    <rect id="Rectangle" x="0.64" y="45.5117949" width="6.41620253" height="9.93794872" rx="3.20810127"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finalytica</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/lottie.js"></script>
 </head>
 <body>
+
+    <!-- LOTTIE FILES -->
+    <!-- Enable lottie files to display + be interactive (Lottie player lib + Lottie interactivity lib)  -->
+    <!-- Repo: https://github.com/LottieFiles/lottie-interactivity -->
+    <!-- Interactivity guide: https://lottiefiles.com/interactivity?url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_kdx6cani.json -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@1/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
 
     <div class="floating_menu_button">
         <img src="images/burger_menu.svg">
@@ -52,8 +61,12 @@
                     <img class="download_img" src="images/download_app_store_icon.svg" alt="Download On The App Store">
 
                     <div class="video_link">
-                        <a href="https://www.instagram.com/p/CSpnVVyjtuW/" target="_blank">Watch video</a>
-                        <img class="watch_video_img" src="images/play_button.svg" alt="Watch Video">
+
+                        <a href="https://www.instagram.com/p/CSpnVVyjtuW/" target="_blank">
+                            <lottie-player id="play-lottie" src="json_animations/play_button.json" loop autoplay>
+                            </lottie-player>
+                        </a>
+                        <!-- <img class="watch_video_img" src="images/play_button.svg" alt="Watch Video"> -->
                     </div>
                 </div>
 
@@ -168,6 +181,8 @@
                     <div class="feature">
 
                         <div class="feature_icon">
+                            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://lottie.host/00e5b0fa-a400-4434-8ca8-92b005dce7cf/pV0YWz6k8d.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> -->
                             <img src="images/balance_sheet_icon.svg">
                         </div>
 
@@ -329,7 +344,15 @@
             <div class="subject_field">
                 <div class="input_field"><textarea placeholder="Please write the question or description of your request..."></textarea></div>
             </div>
+
         </div>
+
+
+        <lottie-player 
+            id="mail-lottie" 
+            src="https://assets10.lottiefiles.com/packages/lf20_kdx6cani.json">
+        </lottie-player>
+        
     </div>
 
 
@@ -344,9 +367,17 @@
 
         <hr width="80%">
 
-        <p>Designed & implemented in HTML/CSS3/SASS by Eric Portela</p>
+        <p>Designed & implemented in HTML/CSS3/SASS by Eric Portela <br><br></p>
+
+        <div class="logo_section">
+            <img id="finalytica_logo" src="/images/finalytica_logo_text.svg">
+        </div>
     </div>
 
 
 </body>
 </html>
+
+
+
+

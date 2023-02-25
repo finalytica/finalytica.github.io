@@ -150,29 +150,29 @@ body {
 
 .section_1 .container .left-col .download_watch_section .download_img {
   max-width: 50%;
+  height: auto;
 }
 
 .section_1 .container .left-col .download_watch_section .video_link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
 }
 
-.section_1 .container .left-col .download_watch_section a {
-  white-space: nowrap;
+.section_1 .container .left-col .download_watch_section .video_link a {
   color: white;
   font-size: 90%;
   text-decoration: none;
-  margin-right: 1vw;
+  max-width: 30%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.section_1 .container .left-col .download_watch_section .video_link a #play-lottie {
+  width: 10vw;
+  height: auto;
 }
 
 .section_1 .container .left-col .download_watch_section .watch_video_img {
@@ -509,7 +509,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10vh;
 }
 
 .section_3 h1 {
@@ -639,6 +638,12 @@ body {
   color: #7881A1;
 }
 
+.section_3 #mail-lottie {
+  max-width: 20vw;
+  padding: 0px;
+  margin: 0px;
+}
+
 .section_4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -684,8 +689,29 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #6F58C9;
   padding: 2%;
+  padding-bottom: 0.5%;
   text-align: center;
   font-size: 12px;
+}
+
+.section_4 .logo_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c1c1c;
+  width: 100vw;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.section_4 .logo_section #finalytica_logo {
+  max-width: 10%;
 }
 
 @media only screen and (max-width: 1000px) {
