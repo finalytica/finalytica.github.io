@@ -737,11 +737,36 @@ body {
             flex-direction: column;
     row-gap: 2vh;
   }
+  .section_1 .container .left-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .section_1 .container .left-col .download_watch_section {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-column-gap: 0vw;
-            column-gap: 0vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section_1 .container .left-col .download_watch_section .video_link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    padding: 0px;
+  }
+  .section_1 .container .left-col .download_watch_section .video_link a #play-lottie {
+    width: 25vw;
+    padding: 0px;
+    margin: 0px;
   }
   .section_1 .container .left-col p {
     text-align: center;
