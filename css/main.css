@@ -24,6 +24,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  visibility: hidden;
   background-color: #6F58C9;
   width: 60px;
   height: 60px;
@@ -276,6 +277,31 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.section_2 .section_2_1 .scroll_down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: -1.25%;
+}
+
+.section_2 .section_2_1 .scroll_down #scroll-lottie {
+  height: 12vh;
+  width: 12vw;
+  padding: 0px;
+  margin-left: -100px;
+  margin-right: -100px;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }
 
 .section_2 .section_2_1 h1 {
