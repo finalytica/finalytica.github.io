@@ -256,9 +256,6 @@ body {
     border-radius: 20vw 20vw 0vw 0vw;
     box-shadow: 0 4px 8px 0 gray, 5px 6px 20px 5px gray;
 
-
-   
-
     // --- Section 2.1
     .section_2_1 {
         display: flex;
@@ -273,16 +270,11 @@ body {
             padding: 0px;
             margin: 0px;
             position: absolute;
-            top: -1.25%;
+            top: -2%;
 
             #scroll-lottie {
                 height: 12vh;
                 width: 12vw;
-                padding: 0px;
-                margin-left: -100px;
-                margin-right: -100px;
-                margin-top: -20px;
-                margin-bottom: -20px;
             }
         }
 
@@ -711,6 +703,10 @@ $input-text-active: #BFD2FF;
 
     .section_2 {
         .section_2_1 {
+            .scroll_down {
+                visibility: hidden;
+            }
+
             .content {
                 .left_section {
                     display: none;

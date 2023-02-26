@@ -291,17 +291,12 @@ body {
   padding: 0px;
   margin: 0px;
   position: absolute;
-  top: -1.25%;
+  top: -2%;
 }
 
 .section_2 .section_2_1 .scroll_down #scroll-lottie {
   height: 12vh;
   width: 12vw;
-  padding: 0px;
-  margin-left: -100px;
-  margin-right: -100px;
-  margin-top: -20px;
-  margin-bottom: -20px;
 }
 
 .section_2 .section_2_1 h1 {
@@ -861,6 +856,9 @@ body {
   }
   .section_1 .container .hero-img {
     width: 90%;
+  }
+  .section_2 .section_2_1 .scroll_down {
+    visibility: hidden;
   }
   .section_2 .section_2_1 .content .left_section {
     display: none;
