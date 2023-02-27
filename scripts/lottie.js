@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 type: "loop",
                 frames: [10, 10]
             }
+            
             // {
             //     visibility: [-0.10, 0.20],
             //     type: "stop",
@@ -24,15 +25,3 @@ document.addEventListener('DOMContentLoaded', function () {
         ]
     });
 })
-
-
-function openNav() {
-
-    var x = document.getElementById("mobile_menu");
-
-    if (x.style.width === "100%") {
-        x.style.width = "0";
-    } else {
-        x.style.width = "100%";
-    }
-}
