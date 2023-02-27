@@ -71,8 +71,18 @@
         <script>
             document.addEventListener('DOMContentLoaded', e => {
                 var video = document.getElementById("preloaded_video");
+                document.body.style.overflow = 'hidden';
+                
+                // var navbar = document.getElementsByClassName("navbar");
+                // var s1 = document.getElementsByClassName("section_1");
+                // var s2 = document.getElementsByClassName("section_2");
+                // var s3 = document.getElementsByClassName("section_3");
+                // var s4 = document.getElementsByClassName("section_4");
+
+                // navbar.style.visibility
 
                 video.addEventListener('ended', e => {
+                    document.body.style.overflow = 'visible';
                     $(".preloader").fadeOut("slow"); //JQuery, imported above!
                 });
             });
