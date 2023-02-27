@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="scripts/lottie.js"></script>
     <script src="scripts/button_actions.js"></script>
-    <script src="scripts/preloader.js"></script>
 </head>
 <body>
 
@@ -65,17 +64,19 @@
 
 
     <div class="preloader">
-        <video autoplay muted playsinline>
+        <video id="preloaded_video" autoplay muted playsinline>
             <source src="videos/finalytica_intro.mp4">
         </video>
 
         <script>
-            function showIt() {
-                $(".preloader").fadeOut("slow");
-                // document.getElementsByClassName("preloader").style.visibility = "hidden";
-            }
+            document.addEventListener('DOMContentLoaded', e => {
+                var video = document.getElementById("preloaded_video");
 
-            setTimeout("showIt()", 6000); // after 6 secs
+                video.addEventListener('ended', e => {
+                    $(".preloader").fadeOut("slow"); //JQuery, imported above!
+                });
+            });
+
         </script>
     </div>
 
