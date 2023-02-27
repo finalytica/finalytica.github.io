@@ -166,7 +166,18 @@ body {
 //--- Part 2: Section 1 ---
 
 .section_1 {
-    text-align: left;
+    // display: flex;
+
+    #background-lottie {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        padding: 0px;
+        opacity: 30%;
+        // margin-right: -40vw;
+        // scale: 200%;
+    }
 
     //--- Container (div)
     .container {
