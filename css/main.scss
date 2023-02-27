@@ -162,6 +162,24 @@ body {
 }
 
 
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 999;
+
+    .video {
+        height: 100%;
+        padding:0px;
+        margin: 0px;
+    }
+}
+
+
 
 //--- Part 2: Section 1 ---
 
